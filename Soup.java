@@ -2,13 +2,11 @@ public class Soup {
     //these are instance variables 
     private String letters;
     private String company;
-    private int wordCount;
 
     //this is a constructor it sets the instance variables (more on this later in the year)
     public Soup(){
         letters ="";
         company = "none";
-        wordCount = 0;
     }
 
 
@@ -48,7 +46,7 @@ public class Soup {
     }
 
 
-    //should remove the first availabile vowel from letters. If there are no vowels this method has no effect.
+    //should remove the first available vowel from letters. If there are no vowels this method has no effect.
     public void removeFirstVowel(){
         
     }
